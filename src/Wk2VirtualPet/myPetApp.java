@@ -1,5 +1,6 @@
 package Wk2VirtualPet;
  
+import java.util.List;
 import java.util.Scanner;
  
 public class myPetApp {
@@ -42,7 +43,8 @@ do{
 			  break;
 		  }
 				
-			Shiva.tick();	 
+			Shiva.tick();
+			
 }
 while (Shiva.hungry>0 && Shiva.thirst>0 && Shiva.boredom>0);
  
